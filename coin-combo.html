@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/coin-combo-scripts.js"></script>
+    <title>Coin Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Coin Combo Counter</h1>
+      <div id="form">
+        <form id="coin-combo">
+          <label for="amount">Enter the amount of cents:</label>
+          <input type="text" id="amount">
+          <button type="submit" class="btn btn-md btn-info"><span class="glyphicon glyphicon-usd"></span>Make it rain!</button>
+        </form>
+      </div>
+      <div id="result">
+        <p>Your change can be made in the following combination:<br>
+          <span class="quarters"></span> quarters <br>
+          <span class="dimes"></span> dimes <br>
+          <span class="nickels"></span> nickels <br>
+          <span class="pennies"></span> pennies <br>
+          </p>
+      </div>
+    </div>
+  </body>
+</html>
